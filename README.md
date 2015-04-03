@@ -3,9 +3,9 @@
 by Angel Vidal
 ###About
 The project has three python files:
-`media.py`: class movie declaration.
-`movies.py`: main program file with the instances to the movie class.
-`fresh_tomatoes.py`: helper python module for html generating.
+* `media.py`: class movie declaration.
+* `movies.py`: main program file with the instances to the movie class.
+* `fresh_tomatoes.py`: helper python module for html generating.
 
 To run the program type `python movies.py` from the command line and the web page 
 `fresh_tomatoes.html` will be generated and loaded into the browser.
