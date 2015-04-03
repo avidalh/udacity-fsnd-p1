@@ -41,7 +41,7 @@ main_page_head = '''
         .movie-tile:hover {
             background-color: #888;
             cursor: pointer;
-            border-radius: 6px;
+            border-radius: 4px;
             color: #EEE;
 
         }
