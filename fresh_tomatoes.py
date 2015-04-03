@@ -2,7 +2,7 @@ import webbrowser
 import os
 import re
 
-# Styles and scripting for the page
+# Styles and scripting for the page (changed background, tiles color and tiles shape/size from the original file)
 main_page_head = '''
 <head>
     <meta charset="utf-8">
@@ -122,7 +122,7 @@ main_page_content = '''
 </html>
 '''
 
-# A single movie entry html template
+# A single movie entry html template (new items added after {movie_title})
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="200" height="311">
@@ -145,9 +145,9 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
-            movie_director = movie.director,
-            movie_country = movie.country,
-            movie_year=movie.year
+            movie_director = movie.director,  # item information added
+            movie_country = movie.country,    # item information added
+            movie_year=movie.year             # item information added
         )
     return content
 
