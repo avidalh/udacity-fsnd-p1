@@ -6,7 +6,7 @@ import fresh_tomatoes
 import operator
 
 
-# movie class instances
+# movie class instances with some films
 alien = media.Movie(
     "Alien",
     "In deep space, the crew of the commercial starship Nostromo is awakened "
@@ -42,7 +42,8 @@ god_father = media.Movie(
     "Epic tale of a 1940s New York Mafia family and their struggle to protect "
     "their empire from rival families as the leadership switches from the "
     "father (Marlon Brando) to his youngest son (Al Pacino)",
-    "http://lunkiandsika.files.wordpress.com/2011/11/the-godfather-original-poster-1972.png",
+    "http://lunkiandsika.files.wordpress.com/2011/11/the-godfather-original"
+    "-poster-1972.png",
     "https://www.youtube.com/watch?v=sY1S34973zA",
     "United States",
     "Francis Ford Coppola",
@@ -51,7 +52,8 @@ god_father = media.Movie(
 star_wars = media.Movie(
     "Star Wars",
     "A long time ago in a galaxy far, far away...",
-    "http://1.bp.blogspot.com/-WusVAlhA_NM/UPvUR6u1BII/AAAAAAACR7Y/MlObkYWkZYc/s1600/Star+Wars+Theatrical+Posters"
+    "http://1.bp.blogspot.com/-WusVAlhA_NM/UPvUR6u1BII/AAAAAAACR7Y"
+    "/MlObkYWkZYc/s1600/Star+Wars+Theatrical+Posters "
     "+Around+The+World+in+1977+(12).jpg",
     "https://www.youtube.com/watch?v=i-vsILeJ8_8",
     "United States",
@@ -87,10 +89,11 @@ belle_epoque = media.Movie(
 
 
 # create the movies list
-movies = [casablanca, god_father, alien, belle_epoque, star_wars, the_sixth_sense]
+movies = [casablanca, god_father, alien, belle_epoque, star_wars,
+          the_sixth_sense]
 
 # sort by ascending year
-movies = sorted(movies, key = operator.attrgetter('year'))
+movies = sorted(movies, key=operator.attrgetter('year'))
 
 #generate the html page
 fresh_tomatoes.open_movies_page(movies)
