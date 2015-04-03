@@ -14,3 +14,11 @@ Once the html file is generated you can load it without run the program.
 
 If you need to add more movies to the library insert them into the movies file and run the program
 again as described before.
+
+The web page shows movies posters tiles with information about:
+* movie title
+* director
+* country
+* and year of production
+
+When a film tile is clicked the youtube link to it's trailer will be open and played. 
