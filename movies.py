@@ -5,7 +5,6 @@ import media
 import fresh_tomatoes
 import operator
 
-
 # movie class instances with some films
 alien = media.Movie(
     "Alien",
@@ -87,7 +86,6 @@ belle_epoque = media.Movie(
     "Fernando Trueba",
     "1992")
 
-
 # create the movies list
 movies = [casablanca, god_father, alien, belle_epoque, star_wars,
           the_sixth_sense]
@@ -97,4 +95,3 @@ movies = sorted(movies, key=operator.attrgetter('year'))
 
 #generate the html page
 fresh_tomatoes.open_movies_page(movies)
-
