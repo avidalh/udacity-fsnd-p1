@@ -110,7 +110,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Udacity Full Stack Web Developer Nanodegree. Project 1 </a>
+            <a class="navbar-brand" href="#">Udacity Full Stack Web Developer Nanodegree. Project 1: Movie Trailer Website</a>
           </div>
         </div>
       </div>
