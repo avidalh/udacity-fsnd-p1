@@ -22,8 +22,10 @@ The web page shows movies posters tiles with information about:
 * country
 * and year of production
 
-Last three items were added to the `fresh_tomato.py` original file in order to 
-be displayed in the web page. Background color, movie tiles hover color and 
+The last three items were added to the `fresh_tomato.py` original file in order
+ to be displayed in the web page. 
+
+Background color, movie tiles hover color and 
 shape were modified in the css part of `fresh_tomatoes.py`.
 
 When a film tile is clicked it's youtube trailer link will be open and played 
